@@ -8,7 +8,6 @@
     
     <!-- أيقونة المتصفح (Favicon) -->
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/713/713311.png" type="image/png">
-
     <!-- ملف التطبيق (Manifest) -->
     <link rel="manifest" href="manifest.json">
 
@@ -195,7 +194,8 @@
         <div class="comparison-media">
             <div class="cmp-video">
                 <div class="video-wrapper">
-                    <iframe src="https://youtu.be/qKsLHu6PWS8?si=FGLwpfPuxK_XKG0I" title="فيديو تعريفي عن خدمات العزل" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" width="560" height="315"></iframe>
+                    <!-- تم تعديل الرابط هنا ليعمل بشكل صحيح -->
+                    <iframe src="https://www.youtube.com/embed/qKsLHu6PWS8" title="فيديو تعريفي عن خدمات العزل" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" width="560" height="315"></iframe>
                 </div>
             </div>
             <div class="cmp-images-row">
@@ -408,12 +408,10 @@
         <div class="panel">
             <p>نستخدم أفضل مواد العزل المعتمدة مثل الايبوكسي (Epoxy)، العزل الأسمنتي (CIC)، والفوم الحراري لضمان حماية كاملة ومنع التسربات.</p>
         </div>
-
         <button class="accordion">هل يوجد ضمان على العزل؟</button>
         <div class="panel">
             <p>نعم، نقدم ضماناً موثقاً يصل إلى 10 سنوات على خدمات العزل المائي والحراري، يشمل الصيانة الدورية.</p>
         </div>
-
         <button class="accordion">هل العزل يؤثر على طعم أو رائحة المياه؟</button>
         <div class="panel">
             <p>لا، جميع المواد التي نستخدمها آمنة تماماً ومصرح بها صحياً، ولا تتفاعل مع المياه أو تغير من خصائصها.</p>
@@ -427,121 +425,4 @@
             <p>املأ البيانات وسيتم تحويلك للواتساب لتأكيد الحجز فوراً</p>
             <form id="whatsappForm">
                 <label for="name" class="sr-only">الاسم الكريم</label>
-                <input type="text" id="name" placeholder="الاسم الكريم" required>
-                <label for="phone" class="sr-only">رقم الجوال</label>
-                <input type="tel" id="phone" placeholder="رقم الجوال" required>
-                <label for="city" class="sr-only">اختر المدينة</label>
-                <select id="city" required>
-                    <option value="" disabled selected>اختر المدينة</option>
-                    <option value="الرياض">الرياض</option>
-                    <option value="جدة">جدة</option>
-                    <option value="الدمام">الدمام</option>
-                    <option value="مكة المكرمة">مكة المكرمة</option>
-                    <option value="المدينة المنورة">المدينة المنورة</option>
-                    <option value="مدينة أخرى">مدينة أخرى</option>
-                </select>
-                <label for="service" class="sr-only">اختر الخدمة المطلوبة</label>
-                <select id="service" required>
-                    <option value="" disabled selected>اختر الخدمة المطلوبة</option>
-                    <option value="عزل خزانات">عزل خزانات</option>
-                    <option value="كشف تسربات">كشف تسربات</option>
-                    <option value="عزل أسطح">عزل أسطح</option>
-                    <option value="غسيل خزانات">غسيل خزانات</option>
-                    <option value="أخرى">أخرى</option>
-                </select>
-                <button type="submit" class="btn btn-call" style="width: 100%; border: none; cursor: pointer;">
-                    إرسال الطلب واتساب <i class="fab fa-whatsapp"></i>
-                </button>
-            </form>
-        </div>
-    </section>
-
-    <!-- قسم التواصل (الفوتر) -->
-    <footer id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>الأمانة لعزل الخزانات</h3>
-                    <p>نقدم أفضل خدمات عزل الخزانات وكشف التسربات في المملكة بأيدي خبراء ومواد معتمدة لضمان سلامة منزلك.</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>روابط سريعة</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">الرئيسية</a></li>
-                        <li><a href="#about">من نحن</a></li>
-                        <li><a href="#services">خدماتنا</a></li>
-                        <li><a href="#testimonials">آراء العملاء</a></li>
-                        <li><a href="#faq">الأسئلة الشائعة</a></li>
-                        <li><a href="blog.html">المدونة</a></li>
-                        <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
-                        <li><a href="terms.html">الشروط والأحكام</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h3>تواصل معنا</h3>
-                    <p><i class="fas fa-phone"></i> +201110760081</p>
-                    <p><i class="fab fa-whatsapp"></i> +201110760081</p>
-                    <div style="margin-top: 15px;">
-                        <button id="shareSiteBtn" class="btn-share-footer">
-                            <i class="fas fa-share-alt"></i> مشاركة الموقع مع صديق
-                        </button>
-                    </div>
-                    <p><i class="fas fa-map-marker-alt"></i> المملكة العربية السعودية</p>
-                </div>
-            </div>
-            <!-- خريطة جوجل -->
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231998.6743666224!2d46.54233774880526!3d24.724997780072793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2ssa!4v1709635648521!5m2!1sen!2ssa" height="300" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="موقع الشركة على الخريطة"></iframe>
-            </div>
-
-            <div class="copyright">
-                &copy; 2023 جميع الحقوق محفوظة لشركة الأمانة لعزل الخزانات
-                | <a href="privacy-policy.html" style="color: #ddd; text-decoration: underline;">سياسة الخصوصية</a>
-                | <a href="terms.html" style="color: #ddd; text-decoration: underline;">الشروط والأحكام</a>
-                <div class="visitor-counter">
-                    <i class="fas fa-eye"></i> زوار اليوم: <span id="visitorCount">...</span>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- زر واتساب العائم -->
-    <a href="https://wa.me/201110760081" onclick="sendHeroWhatsapp(event)" class="float-whatsapp" aria-label="تواصل عبر واتساب">
-        <i class="fab fa-whatsapp my-float"></i>
-    </a>
-
-    <!-- زر طلب اتصال عائم (يظهر عند التمرير) -->
-    <a href="tel:+201110760081" id="floatCallBtn" class="float-call-btn">
-        <i class="fas fa-phone-volume"></i> <span>اطلب اتصال</span>
-    </a>
-
-    <!-- زر الصعود للأعلى -->
-    <button id="scrollTopBtn" title="الصعود للأعلى">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!-- شريط الاتصال الثابت للجوال (مهم جداً للمنافسة) -->
-    <div class="mobile-sticky-bar">
-        <a href="tel:+201110760081" class="sticky-btn call-btn">
-            <i class="fas fa-phone-alt"></i> اتصل الآن
-        </a>
-        <a href="https://wa.me/201110760081" onclick="sendHeroWhatsapp(event)" class="sticky-btn whatsapp-btn">
-            <i class="fab fa-whatsapp"></i> واتساب
-        </a>
-    </div>
-
-    <!-- Lightbox لعرض الصور -->
-    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-        <span class="lightbox-close" onclick="closeLightboxBtn()">&times;</span>
-        <img class="lightbox-content" id="lightbox-img" alt="صورة مكبرة" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-    </div>
-
-    <!-- ربط ملف الجافاسكريبت الخارجي (مؤجل لتحسين السرعة) -->
-    <script src="script.js" defer></script>
-
-</body>
-</html>
-
-
+   
